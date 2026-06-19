@@ -31,7 +31,7 @@ To remove the Utilities Menu from your desktop context menu, double-click the `R
 
 ### Explorer7
 
-- Download explorer7 from the official [releases](https://github.com/world-windows-federation/explorer7/releases) page and extract the source files into `C:\Utilities\explorer7`. Then follow the instructions to set it up on your system. *(A windows 7 or xp iso file is required for explorer7. You can find one on [archive.org](https://archive.org/details/windows7ultimatex64_201912))*.
+- Download explorer7 from the official [releases](https://github.com/world-windows-federation/explorer7/releases) page and extract the source files into `C:\Utilities\explorer7`. Then follow the instructions to set it up on your system. *(A windows 7 or xp iso file is required for explorer7. You can find a Windows 7 AIO ISO on [archive.org](https://archive.org/details/windows-7-all-in-one-iso-with-all-languages))*.
 
 If done correctly, the file structure should look like this:
 
