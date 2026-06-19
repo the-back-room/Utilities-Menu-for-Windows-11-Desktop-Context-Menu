@@ -1,10 +1,4 @@
-```yaml
-                                ______ ___    _______  _____ ___  _________________________
-                                | ____|\ \   / /| __ \| /   / _ \| ____| ____||___  ||_   /
-                                |  _|   \ \ / / | |_) | |  | | | | |_) |  _|  | |_) |  / / 
-                                | |___  / / \ \ |  __/| |__| |_| |  _ <| |___ |  _ <  / /  
-                                |_____|/_/   \_\|_|   |_____\___/|_| \_|_____||_| \_\/_/   
-```
+# Explorer 7 - Ex7forW8, modernized
 
 * **VERSION**: [Milestone 2 Update 3](https://github.com/world-windows-federation/explorer7/releases/tag/milestone2-u3)
 
