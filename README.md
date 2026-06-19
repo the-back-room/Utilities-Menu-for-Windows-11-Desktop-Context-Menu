@@ -14,10 +14,9 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 ## Optional Addons
 
 - **Restart Explorer7**: Optional feature for explorer7 users to restart explorer 7 without needing the log off. *(Requires explorer7 to be installed into `C:\Utilities\explorer7`.)*
-- **MKLINK Assistant**: Assists in creating symbolic/hard links, and directory junctions using the MKLINK command
 - **Refresh Icon Cache**: Refreshes the icon and thumbnail cache to fix icon display issues.
 - **Cleanup Memory**: Free up memory with by clearing the Working Sets, Standby List, and Modified Page List with the RAMMap Memory Cleanup Script.
-- **UWPSpy**: Add UWPSpy to the Utilities menu with the following options: `Inspect Target, Light Mode, Dark Mode`.
+- **Inspect Target**: Inspect a specified target with UWPSpy. *(Requires UWPSpy to be installed to `C:\Utilities\UWPSpy`.)*
 - **Classic Personlization**: Add Classic Personlization to the desktop context menu.
 - **Control Panel**: Add Control Panel to the desktop context menu.
 
@@ -57,12 +56,6 @@ To remove, simply double-click the `Remove Cleanup Memory.reg` file located in t
 1. Double-click the `Add Refresh Icon Cache.reg` file located in the `Utilities\Addons` directory.
 
 To remove, simply double-click the `Remove Refresh Icon Cache.reg` file located in the `Utilities\Addons` directory.
-
-### MKLINK Assistant
-
-1. Double-click the `Add MKLINK Assistant.reg` file located in the `Utilities\Addons` directory.
-
-To remove, simply double-click the `Remove MKLINK Assistant.reg` file located in the `Utilities\Addons` directory.
 
 ### UWPSpy
 
