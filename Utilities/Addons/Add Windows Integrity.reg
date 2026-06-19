@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\flyout008]
+"Icon"="cmd.exe"
+"MUIVerb"="Windows Integrity"
+"Position"="Bottom"
+"SubCommands"=""
+"Extended"=-
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\flyout008\shell\System File Checker]
+"Icon"="cmd.exe"
+"MUIVerb"="System File Checker (SFC)"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\flyout008\shell\System File Checker\command]
+@="cmd.exe /c sudo sfc /scannow"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\flyout008\shell\Deployment Imaging Servicing Management]
+"Icon"="cmd.exe"
+"MUIVerb"="Deployment Imaging Servicing Management (DISM)"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\flyout008\shell\Deployment Imaging Servicing Management\command]
+@="cmd.exe /c sudo dism /Online /Cleanup-Image /RestoreHealth"

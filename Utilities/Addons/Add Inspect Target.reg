@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Main Cascade Entry
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\flyout007]
+"Icon"="C:\\Utilities\\UWPSpy\\UWPSpy.exe"
+"MUIVerb"="Inspect Target"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\flyout007\command]
+@="cmd.exe /c \"C:\\Utilities\\UWPSpy\\RunUWPSpy.bat\" /target"

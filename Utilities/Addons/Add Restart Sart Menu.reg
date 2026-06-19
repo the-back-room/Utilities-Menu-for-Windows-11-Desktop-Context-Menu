@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\flyout006]
+"Icon"="cmd.exe"
+"MUIVerb"="Restart Start Menu"
+"Position"="Middle"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\flyout006\command]
+@="cmd.exe /c sudo taskkill /f /im StartMenuExperienceHost.exe"
