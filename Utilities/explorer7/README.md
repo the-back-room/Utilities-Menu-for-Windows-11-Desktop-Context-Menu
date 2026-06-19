@@ -10,7 +10,7 @@
 
 ```
 
-* **VERSION**: Milestone 2 Update 3, 29/07/25
+* **VERSION**: [Milestone 2 Update 3](https://github.com/world-windows-federation/explorer7/releases/tag/milestone2-u3)
 
 ## N O T I C E S
 
