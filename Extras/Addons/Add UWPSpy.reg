@@ -1,0 +1,28 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\UWPSpy]
+"Icon"="C:\\Utilities\\UWPSpy\\UWPSpy.exe"
+"MUIVerb"="UWPSpy"
+"Position"="Bottom"
+"SubCommands"=""
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\UWPSpy\shell\flyout001]
+"Icon"="C:\\Utilities\\UWPSpy\\UWPSpy.exe"
+"MUIVerb"="Inspect Target"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\UWPSpy\shell\flyout001\command]
+@="cmd.exe /c \"cd /d C:\\Utilities\\UWPSpy && RunUWPSpy.bat /target\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\UWPSpy\shell\flyout002]
+"MUIVerb"="Light Mode"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\UWPSpy\shell\flyout002\command]
+@="cmd.exe /c \"cd /d C:\\Utilities\\UWPSpy && RunUWPSpy.bat /light\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\UWPSpy\shell\flyout003]
+"MUIVerb"="Dark Mode"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\shell\UWPSpy\shell\flyout003\command]
+@="cmd.exe /c \"cd /d C:\\Utilities\\UWPSpy && RunUWPSpy.bat /dark\""

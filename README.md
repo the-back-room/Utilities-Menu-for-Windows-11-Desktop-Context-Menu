@@ -17,8 +17,9 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 - **MKLINK Assistant**: Assists in creating symbolic/hard links, and directory junctions using the MKLINK command
 - **Refresh Icon Cache**: Refreshes the icon and thumbnail cache to fix icon display issues.
 - **Cleanup Memory**: Free up memory with by clearing the Working Sets, Standby List, and Modified Page List with the RAMMap Memory Cleanup Script.
-- **Classic Personalizattion**: Add Classic Personlization menu to the Windows 11 desktop context menu.
-- **Control Panel**: Add a Control Panel entree wtih `Icons View, Categories View and All Items (God Mode)` to the Windows 11 desktop context menu.
+- **UWPSpy**: Add UWPSpy to the Utilities menu with the following options: `Inspect Target, Light Mode, Dark Mode`.
+- **Classic Personlization**: Add Classic Personlization to the desktop context menu.
+- **Control Panel**: Add Control Panel to the desktop context menu.
 
 ## Instructions
 
@@ -33,14 +34,21 @@ To remove the Utilities Menu from your desktop context menu, double-click the `R
 
 ### Explorer7
 
-- Follow the instructions [here](/Utilities/explorer7/README.md) to set up explorer7 on your system. You can download the latest version of explorer7 from the official [releases](https://github.com/world-windows-federation/explorer7/releases) page if ours is outdated. *(A windows 7 or xp iso file is required for explorer7. You can find a Windows 7 AIO ISO on [archive.org](https://archive.org/details/windows-7-all-in-one-iso-with-all-languages))*.
+- Download explorer7 from the official [releases](https://github.com/world-windows-federation/explorer7/releases) page and extract the source files into `C:\Utilities\explorer7`. Then follow the instructions to set it up on your system. *(A windows 7 or xp iso file is required for explorer7. You can find one on [archive.org](https://archive.org/details/windows7ultimatex64_201912))*.
 
-- **Enable Modern Apps**: Double-click the `Enable Modern Apps.reg` file included in the `Utilities\explorer7` directory to enable support for modern apps in explorer7.
+If done correctly, the file structure should look like this:
+
+<img align="center" width="50%" height="auto" alt="File Structure" src="/Extras/explorer7-file-structure.bmp" />
+
+- **Enable Modern Apps**: Double-click the `Enable Modern Apps.reg` file included in the `explorer7\extra` directory to enable support for modern apps in explorer7.
+- **AcrylicColorization**: Double-click the registry file for your desired setting in the `explorer7\extras\AcrylicColorization` directory.
+- **ColorizationOptions**: Double-click the registry file for your desired setting in the `explorer7\extras\ColorizationOptions` directory.
+- **Themes**: Double-click the `aero.reg` file located in the `explorer7\extras\Themes` directory to enable to aero theme. *(Alternatively, if you know how to work with registry files, you can use the `aero.reg` file as a template to make a registry file for your own themes)*
 
 ### Cleanup Memory
 
 1. Download and install [Sysinternals Suite](https://apps.microsoft.com/detail/9p7knl5rwt25) from the Microsoft Store.
-2. Double-click the `Add Cleanup Memory.reg` file located in the Utilities\Addons` directory.
+2. Double-click the `Add Cleanup Memory.reg` file located in the `Utilities\Addons` directory.
 
 To remove, simply double-click the `Remove Cleanup Memory.reg` file located in the `Utilities\Addons` directory.
 
@@ -55,6 +63,18 @@ To remove, simply double-click the `Remove Refresh Icon Cache.reg` file located 
 1. Double-click the `Add MKLINK Assistant.reg` file located in the `Utilities\Addons` directory.
 
 To remove, simply double-click the `Remove MKLINK Assistant.reg` file located in the `Utilities\Addons` directory.
+
+### UWPSpy
+
+1. Download UWPSy from [ramensoftware.com/uwpspy](https://ramensoftware.com/uwpspy) and extract it's contents into `C:\Utilities\UWPSpy`
+2. Add the `C:\Utilities\UWPSpy` directory to path via `setx /M PATH "%PATH%;C:\Utilities\UWPSpy"`.
+3. Double-click the `Add UWPSpy.reg` file loccated in the `Utilities\Addons` dirtectory.
+
+To remove, simply double-click the `Remove UWPSpy.reg` file located in the `Utilities\Addons` directory.
+
+- The `Inspect Target` entree will allow users to open UWPSpy directly to the specified target, simply click it and enter the desired target intot he cmd prompt window that opens.
+- The `Light Mode` entree will force UWPSPy to open in Windows Light mode.
+- The `Dark Mode` entree will force UWPSpy to open in Windows Dark mode
 
 ---
 
