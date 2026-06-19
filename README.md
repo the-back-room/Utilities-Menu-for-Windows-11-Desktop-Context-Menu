@@ -17,6 +17,8 @@ A simple set of utilities added to the Windows 11 desktop context menu for quick
 - **MKLINK Assistant**: Assists in creating symbolic/hard links, and directory junctions using the MKLINK command
 - **Refresh Icon Cache**: Refreshes the icon and thumbnail cache to fix icon display issues.
 - **Cleanup Memory**: Free up memory with by clearing the Working Sets, Standby List, and Modified Page List with the RAMMap Memory Cleanup Script.
+- **Classic Personalizattion**: Add Classic Personlization menu to the Windows 11 desktop context menu.
+- **Control Panel**: Add a Control Panel entree wtih `Icons View, Categories View and All Items (God Mode)` to the Windows 11 desktop context menu.
 
 ## Instructions
 
@@ -37,29 +39,26 @@ If done correctly, the file structure should look like this:
 
 <img align="center" width="50%" height="auto" alt="File Structure" src="/Extras/explorer7-file-structure.bmp" />
 
-- **Enable Modern Apps**: Double-click the `Enable Modern Apps.reg` file included in the `explorer7\extra` directory to enable support for modern apps in explorer7.
-- **AcrylicColorization**: Double-click the registry file for your desired setting in the `explorer7\extras\AcrylicColorization` directory.
-- **ColorizationOptions**: Double-click the registry file for your desired setting in the `explorer7\extras\ColorizationOptions` directory.
-- **Themes**: Double-click the `aero.reg` file located in the `extras\Themes` directory to enable to aero theme. *(Alternatively, if you know how to work with registry files, you can use the `aero.reg` file as a template to make a registry file for your own themes)*
+- **Enable Modern Apps**: Double-click the `Enable Modern Apps.reg` file included in the `Utilities\explorer7` directory to enable support for modern apps in explorer7.
 
 ### Cleanup Memory
 
 1. Download and install [Sysinternals Suite](https://apps.microsoft.com/detail/9p7knl5rwt25) from the Microsoft Store.
-2. Double-click the `Add Cleanup Memory.reg` file located in the `extras\Addons` directory.
+2. Double-click the `Add Cleanup Memory.reg` file located in the Utilities\Addons` directory.
 
-To remove, simply double-click the `Remove Cleanup Memory.reg` file located in the `extras\Addons` directory.
+To remove, simply double-click the `Remove Cleanup Memory.reg` file located in the `Utilities\Addons` directory.
 
 ### Refresh Icon Cache
 
-1. Double-click the `Add Refresh Icon Cache.reg` file located in the `extras\Addons` directory.
+1. Double-click the `Add Refresh Icon Cache.reg` file located in the `Utilities\Addons` directory.
 
-To remove, simply double-click the `Remove Refresh Icon Cache.reg` file located in the `extras\Addons` directory.
+To remove, simply double-click the `Remove Refresh Icon Cache.reg` file located in the `Utilities\Addons` directory.
 
 ### MKLINK Assistant
 
-1. Double-click the `Add MKLINK Assistant.reg` file located in the `extras\Addons` directory.
+1. Double-click the `Add MKLINK Assistant.reg` file located in the `Utilities\Addons` directory.
 
-To remove, simply double-click the `Remove MKLINK Assistant.reg` file located in the `extras\Addons` directory.
+To remove, simply double-click the `Remove MKLINK Assistant.reg` file located in the `Utilities\Addons` directory.
 
 ---
 
