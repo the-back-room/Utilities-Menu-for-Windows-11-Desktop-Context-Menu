@@ -7,13 +7,12 @@
  \___/_/\_\ .__/|_|\___/|_|  \___|_|\_/    
           | |                              
           |_|
-==== explorer7 - Ex7forW8, modernized ====
-
- VERSION: Milestone 2 Update 3, 29/07/25
-
-==========================================
 
 ```
+
+#### ==== explorer7 - Ex7forW8, modernized ====
+#### VERSION: Milestone 2 Update 3, 29/07/25
+#### ==========================================
 
 ## N O T I C E S
 
