@@ -20,8 +20,6 @@
 
 - For more information on the state of this project, consult the Discord
   server or the WinClassic thread.
-
-==========================================
  
 ## I N S T A L L    I N S T R U C T I O N S
 
@@ -43,8 +41,6 @@ NOTE: You MUST have a Windows 7 ISO mounted (or Windows 7 installation on anothe
    (X:\wherever\you\extracted\explorer.exe).
 
 4. You're all set!
-
-==========================================
 		
 ### M I S C
 
@@ -66,9 +62,6 @@ NOTE: You MUST have a Windows 7 ISO mounted (or Windows 7 installation on anothe
   translucent system accent type. We hope to be able to remove this
   recommendation in the future. 
 
-
-==========================================
-
 ### C R E D I T S
 
 - Tihiy - original developer of Ex7forW8
@@ -81,5 +74,3 @@ NOTE: You MUST have a Windows 7 ISO mounted (or Windows 7 installation on anothe
 - Microsoft - the Aero visual style
 - Vruh 3 - original research, designer, pre-release testing
 - Erizur - original research, pre-release testing
-
-==========================================
