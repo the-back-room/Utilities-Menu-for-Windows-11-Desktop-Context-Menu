@@ -1,6 +1,4 @@
-<p align="center">
-
-```c++
+<pre align="center">
                  _                   ______
                 | |                 |___  /
   _____  ___ __ | | ___  _ __ ___ _ __ / / 
@@ -9,10 +7,7 @@
  \___/_/\_\ .__/|_|\___/|_|  \___|_|\_/    
           | |                              
           |_|
-
-```
-
-</p>
+</pre>
 
 * **VERSION**: [Milestone 2 Update 3](https://github.com/world-windows-federation/explorer7/releases/tag/milestone2-u3)
 
