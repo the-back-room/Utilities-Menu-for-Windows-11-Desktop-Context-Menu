@@ -1,3 +1,5 @@
+<center>
+
 ```c++
                  _                   ______
                 | |                 |___  /
@@ -9,6 +11,8 @@
           |_|
 
 ```
+
+</center>
 
 * **VERSION**: [Milestone 2 Update 3](https://github.com/world-windows-federation/explorer7/releases/tag/milestone2-u3)
 
