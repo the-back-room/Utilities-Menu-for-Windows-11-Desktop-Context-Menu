@@ -33,11 +33,7 @@ To remove the Utilities Menu from your desktop context menu, double-click the `R
 
 ### Explorer7
 
-- Download explorer7 from the official [releases](https://github.com/world-windows-federation/explorer7/releases) page and extract the source files into `C:\Utilities\explorer7`. Then follow the instructions to set it up on your system. *(A windows 7 or xp iso file is required for explorer7. You can find a Windows 7 AIO ISO on [archive.org](https://archive.org/details/windows-7-all-in-one-iso-with-all-languages))*.
-
-If done correctly, the file structure should look like this:
-
-<img align="center" width="50%" height="auto" alt="File Structure" src="/Extras/explorer7-file-structure.bmp" />
+- Follow the instructions [here]() to set up explorer7 on your system. You can download the latest version of explorer7 from the official [releases](https://github.com/world-windows-federation/explorer7/releases) page if ours is outdated. *(A windows 7 or xp iso file is required for explorer7. You can find a Windows 7 AIO ISO on [archive.org](https://archive.org/details/windows-7-all-in-one-iso-with-all-languages))*.
 
 - **Enable Modern Apps**: Double-click the `Enable Modern Apps.reg` file included in the `Utilities\explorer7` directory to enable support for modern apps in explorer7.
 
