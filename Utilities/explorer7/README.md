@@ -1,3 +1,4 @@
+<pre>
                  _                   ______
                 | |                 |___  /
   _____  ___ __ | | ___  _ __ ___ _ __ / / 
@@ -11,8 +12,9 @@
  VERSION: Milestone 2 Update 3, 29/07/25
 
 ==========================================
+</pre>
 
-              N O T I C E S
+## N O T I C E S
 
 - This is PRE-RELEASE SOFTWARE. This means, expect bugs, crashes and whatnot.	
   WE REPEAT: THIS IS UNFINISHED SOFTWARE. USE AT YOUR OWN RISK!
@@ -33,7 +35,7 @@
 
 ==========================================
  
- I N S T A L L    I N S T R U C T I O N S
+## I N S T A L L    I N S T R U C T I O N S
 
 NOTE: You MUST have a Windows 7 ISO mounted (or Windows 7 installation on another drive) for the explorer files.
 
@@ -56,7 +58,7 @@ NOTE: You MUST have a Windows 7 ISO mounted (or Windows 7 installation on anothe
 
 ==========================================
 		
-                 M I S C
+### M I S C
 
 - explorer7 is capable of loading inactive .msstyles files contained within the
   "theme" folder in the installation location. This is required for Windows 10
@@ -79,7 +81,7 @@ NOTE: You MUST have a Windows 7 ISO mounted (or Windows 7 installation on anothe
 
 ==========================================
 
-              C R E D I T S
+### C R E D I T S
 
 - Tihiy - original developer of Ex7forW8
 - wiktorwiktor12 - original research, development, pre-release testing
